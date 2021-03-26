@@ -1,0 +1,1047 @@
+/*
+   Rest all the elements
+*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+/******************************************
+                showcase
+*******************************************/
+.showcase {
+  height: 100vh;
+  width: 100%;
+  background-image: url("assets/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+}
+.inside__showcase {
+  width: 60%;
+  margin: 0 auto;
+}
+/*
+   a - showcase The navigation part
+*/
+.navigation {
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation__syntax ul {
+  display: flex;
+}
+
+.navigation__syntax a {
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.navigation__syntax a:hover {
+  color: #2f6c85;
+}
+#bar {
+  display: none;
+}
+/******************************************
+                Modal Nav
+*******************************************/
+
+.miniNavModal {
+  height: 100vh;
+  width: 100%;
+  background-color: #36335e;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+  display: none;
+}
+.closeNav {
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+}
+.navModalSyntax {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.navModalSyntax ul li {
+  margin: 10px 0px;
+}
+.navModalSyntax ul li a {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+.navModalSyntax ul li a:hover {
+  color: #2f6c85;
+}
+.closeNav i {
+  color: white;
+  font-size: 30px;
+}
+/*
+   b - showcase The logo part
+*/
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo p {
+  color: #2f6c85;
+  font-size: 18px;
+}
+.logo img {
+  width: 80%;
+}
+.header {
+  height: 85vh;
+}
+
+/*
+   c - showcase The header part
+*/
+.header {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.header h1 {
+  color: white;
+  font-size: 30px;
+}
+.header small {
+  color: #2f6c85;
+  font-size: 30px;
+  display: inline-block;
+  margin-top: -30px;
+}
+.header p {
+  color: white;
+  margin: 10px 0px;
+  font-weight: 300;
+}
+.btn1 {
+  color: #2f6c85;
+  padding: 10px 20px;
+  font-size: 15px;
+  background: transparent;
+  border: 1px solid #2f6c85;
+  display: inline-block;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+/******************************************
+                Stroy
+*******************************************/
+.story {
+  height: 50vh;
+  font-family: "Open Sans", sans-serif;
+}
+.inside__story {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  height: 50vh;
+  align-items: center;
+}
+.story__left img {
+  margin-right: 100px;
+}
+.story__right h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.story__right p {
+  font-size: 12px;
+  margin: 10px 0px;
+  color: #444;
+}
+/******************************************
+                Video
+*******************************************/
+.video {
+  display: none;
+  height: 80vh;
+  width: 100%;
+  background-image: url("assets/bgk-middle.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon_video img {
+  width: 60%;
+}
+.modal {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: none;
+}
+.inside_modal {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.inside_modal i {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  font-size: 40px;
+}
+
+.modal iframe {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 100px auto;
+  object-fit: cover;
+}
+#cancelVideo {
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+
+/******************************************
+                Expertise
+*******************************************/
+.expertise {
+  height: 100vh;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+.upper__expertise {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.upper__expertise h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.upper__expertise p {
+  font-size: 16px;
+  margin: 10px 0px;
+}
+
+.lower__expertise {
+  height: 70vh;
+}
+.inside__expertise {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.inside__expertise div {
+  margin: 0 20px;
+  border-left: 1px solid #eee;
+
+  padding-left: 20px;
+}
+.inside__expertise h1 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #233;
+  margin: 10px 0px;
+}
+.inside__expertise img {
+  width: 12%;
+}
+.inside__expertise p {
+  font-size: 13px;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.lower_icon img {
+  padding-top: 30px;
+}
+#imageEx {
+  width: 20px !important;
+}
+
+/******************************************
+                Team
+*******************************************/
+.team {
+  height: 100vh;
+  width: 100%;
+  background-image: url("assets/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+}
+.team__inside {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.team__inside h1 {
+  font-weight: 700;
+}
+.team__inside p {
+  font-weight: 300;
+}
+.team__header small {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.team__header {
+  color: white;
+  text-align: center;
+}
+.team__pic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 100px;
+  text-align: center;
+}
+.team__pic div {
+  text-align: center;
+  background-color: white;
+  margin-left: 20px;
+}
+.team__pic img {
+  width: 100%;
+}
+.team__pic h1 {
+  font-size: 15px;
+  font-weight: 700;
+}
+.team__pic p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.spaceTeam {
+  padding: 20px;
+}
+.team__btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+
+/******************************************
+                Form Field
+*******************************************/
+.formField {
+  padding: 50px 0px;
+  height: 90vh;
+  width: 100%;
+  background-color: white;
+}
+.inside__formField {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 90vh;
+}
+.form input,
+button {
+  display: flex;
+  flex-direction: column;
+}
+.form__right h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.form__left {
+  margin-left: 70px;
+}
+.form input,
+textarea {
+  margin: 10px 0px;
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #eee;
+  outline: none;
+}
+::placeholder {
+  color: #777;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.form__left h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.flex__clients {
+  display: flex;
+  flex-direction: row;
+}
+.flex__clients div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flex__clients img {
+  width: 70%;
+  margin: 25px 5px;
+}
+
+/******************************************
+                Footer
+*******************************************/
+.footer {
+  height: 50vh;
+  width: 100%;
+  background-image: url("assets/bgk-footer.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+.inside__footer {
+  padding-top: 100px;
+  width: 80%;
+  margin: 0 auto;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.LogoFooter {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+.LogoFooter img {
+  width: 40px;
+  margin-right: 10px;
+}
+.footer__left {
+  width: 33%;
+}
+.footer__left p {
+  font-weight: 300;
+  font-size: 15px;
+}
+.footer__left ul li {
+  display: inline-block;
+}
+.footer__left ul li a {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+/*
+    Footer Middle
+*/
+
+.footer__middle h1 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer__middle p {
+  font-size: 15px;
+  font-weight: 300;
+}
+.middle__icons {
+  display: flex;
+  margin-top: 20px;
+}
+.middle__icons i {
+  margin-right: 10px;
+}
+
+/*
+    Footer RIght
+*/
+.footer__right h1 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer__right input {
+  padding: 10.7px 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  margin: 10px 0px;
+}
+.footer__right input::placeholder {
+  color: white;
+}
+.finalLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+}
+.footer__right p {
+  font-size: 13px;
+  margin: 10px 0px;
+  font-weight: 300;
+}
+#telegram {
+  background-color: white;
+  color: gray;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin: 20px 0px;
+}
+#facebook,
+#twitter,
+#instagram,
+#telgrm,
+#gogle {
+  border: 1px solid white;
+  border-radius: 100px;
+  margin-right: 5px;
+}
+#facebook {
+  padding: 5px 8px;
+}
+#twitter {
+  padding: 5px 6px;
+}
+#instagram {
+  padding: 5px 6px;
+}
+#telgrm {
+  padding: 5px 6px;
+}
+#gogle {
+  padding: 5px 6px;
+}
+/*
+    Media Query 
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+    *********************
+*/
+
+@media (max-width: 599px) {
+  * {
+    overflow-x: hidden !important;
+  }
+  /******************************************
+                showcase
+*******************************************/
+  .inside__showcase {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .navigation {
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navigation__syntax a {
+    display: none;
+  }
+  #bar {
+    display: flex;
+  }
+  .header h1 {
+    font-size: 25px;
+  }
+  .header small {
+    font-size: 20px;
+  }
+  .header p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /******************************************
+                showcase
+*******************************************/
+  .story {
+    height: 100vh;
+  }
+  .inside__story {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .story__left {
+    text-align: center;
+    width: 45%;
+  }
+  .story__left img {
+    height: 100px;
+  }
+  .story__right h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .story__right p {
+    font-size: 12px;
+    margin: 10px 0px;
+    color: #444;
+  }
+  /******************************************
+                Expertise
+*******************************************/
+  .expertise {
+    height: 200vh;
+  }
+  .upper__expertise {
+    height: 30vh;
+    text-align: center;
+  }
+  .upper__expertise h1 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .upper__expertise p {
+    font-size: 16px;
+  }
+
+  .lower__expertise {
+    height: 70vh;
+  }
+  .inside__expertise {
+    border: none !important;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .inside__expertise div {
+    border: none !important;
+  }
+
+  .inside__expertise h1 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #233;
+    margin: 10px 0px;
+  }
+  .inside__expertise {
+    margin-right: 20px;
+  }
+  .inside__expertise img {
+    width: 18%;
+  }
+  /**************************************
+                TEAM
+  ***************************************/
+  .team {
+    height: 180vh;
+  }
+  .team__inside {
+    height: 180vh;
+    display: block;
+  }
+  .team__header {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .team__header h1 {
+    margin-top: 10px;
+  }
+  .team__pic {
+    display: block;
+  }
+  .team__pic div {
+    margin: 30px 0px;
+  }
+  .team__pic p {
+    font-size: 12px;
+  }
+  .spaceTeam {
+    padding: 20px 0px;
+  }
+  /******************************************
+                Form Field
+*******************************************/
+  .formField {
+    height: 130vh;
+  }
+  .inside__formField {
+    display: block;
+    text-align: center;
+    height: 130vh;
+  }
+
+  .form__right h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+  }
+  .form__left {
+    text-align: center;
+    width: 100%;
+  }
+  .form__left h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin-right: 120px;
+    font-size: 20px;
+  }
+  .flex__clients {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flex__clients img {
+    width: 50%;
+    margin: 25px 5px;
+  }
+  /******************************************
+                Footer
+*******************************************/
+  .footer {
+    height: 100vh;
+  }
+  .inside__footer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+  }
+  .LogoFooter {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    margin-left: 90px;
+    width: 100%;
+  }
+  .LogoFooter img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  .footer__left {
+    width: 100%;
+    text-align: center;
+  }
+  .footer__left p {
+    font-size: 12px;
+    margin: 20px 0px;
+  }
+
+  /*
+      Footer Middle
+  */
+
+  .footer__middle h1 {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+
+  /*
+      Footer RIght
+  */
+  .footer__right h1 {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  * {
+    overflow-x: hidden !important;
+  }
+  .inside__showcase {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .navigation {
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navigation__syntax a {
+    display: none;
+  }
+  #bar {
+    display: flex;
+    font-size: 20px;
+  }
+  .header h1 {
+    font-size: 25px;
+  }
+  .header small {
+    font-size: 20px;
+  }
+  .header p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /******************************************
+                showcase
+*******************************************/
+  .story {
+    height: 50vh;
+  }
+  .inside__story {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .story__left {
+    text-align: center;
+    width: 22%;
+  }
+  .story__left img {
+    height: 100px;
+  }
+  .story__right h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .story__right p {
+    font-size: 12px;
+    margin: 10px 0px;
+    color: #444;
+  }
+  /******************************************
+                Expertise
+*******************************************/
+  .expertise {
+    height: 150vh;
+  }
+  .upper__expertise {
+    height: 30vh;
+    text-align: center;
+  }
+  .upper__expertise h1 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .upper__expertise p {
+    font-size: 16px;
+  }
+
+  .lower__expertise {
+    height: 70vh;
+  }
+  .inside__expertise {
+    border: none !important;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .inside__expertise div {
+    border: none !important;
+  }
+
+  .inside__expertise {
+    margin-right: 20px;
+  }
+  .inside__expertise img {
+    width: 7%;
+  }
+  /**************************************
+                TEAM
+  ***************************************/
+  .team {
+    height: 250vh;
+  }
+  .team__inside {
+    height: 250vh;
+    display: block;
+  }
+
+  .team__header {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .team__header h1 {
+    margin-top: 10px;
+  }
+  .team__pic {
+    display: block;
+  }
+  .team__pic div {
+    margin: 30px 0px;
+  }
+  .team__pic p {
+    font-size: 12px;
+  }
+  .spaceTeam {
+    padding: 20px 0px;
+  }
+  /******************************************
+                Form Field
+*******************************************/
+  .formField {
+    height: 130vh;
+  }
+  .inside__formField {
+    display: block;
+    text-align: center;
+    height: 130vh;
+  }
+
+  .form__right h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+  }
+  .form__left {
+    text-align: center;
+    width: 100%;
+  }
+  .form__left h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin-right: 120px;
+    font-size: 20px;
+  }
+  .flex__clients {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    margin-right: 60px;
+  }
+
+  .flex__clients img {
+    width: 50%;
+    margin: 25px 5px;
+  }
+  /******************************************
+                Footer
+*******************************************/
+  .footer {
+    height: 100vh;
+  }
+  .inside__footer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+  }
+  .LogoFooter {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    margin-left: 250px;
+    width: 100%;
+  }
+  .LogoFooter img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  .footer__left {
+    width: 100%;
+    text-align: center;
+  }
+  .footer__left p {
+    font-size: 12px;
+    margin: 20px 0px;
+  }
+
+  /*
+      Footer Middle
+  */
+
+  .footer__middle h1 {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+
+  /*
+      Footer RIght
+  */
+  .footer__right h1 {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .finalLine {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+  .footer__middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+}

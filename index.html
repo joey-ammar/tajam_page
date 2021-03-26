@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/daf228d976.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="assets/logo-big.png" />
+    <title>Tajam</title>
+  </head>
+  <body>
+    <!-- 
+        Starting in the Nav bar
+    -->
+    <!--Main show case-->
+    <section class="showcase">
+      <div class="inside__showcase">
+        <!--Nav-->
+        <nav class="navigation">
+          <div class="logo">
+            <div><img src="assets/logo.svg" alt="The logo of the page" /></div>
+            <div><p>Tajam</p></div>
+          </div>
+          <div class="navigation__syntax">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Expertise</a></li>
+              <li><a href="#">Teams</a></li>
+              <li><a href="#">Works</a></li>
+              <li><a href="#">People Say</a></li>
+              <li><a href="#">Contact</a></li>
+              <li>
+                <a id="bar" href="#"><i class="fas fa-bars"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!--Nav-->
+        <header class="header">
+          <div class="inside__header">
+            <h1>We Are Awesome Creative Agency</h1>
+            <small>____</small>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+              minus obcaecati eaque consectetur expedita veniam eum consequuntur
+              consequatur nisi debitis facilis molestias illo nam, ad ex,
+              eveniet necessitatibus quidem blanditiis fuga dolorem, voluptatum
+              pariatur placeat et. Et iure mollitia nam voluptatum expedita,
+              iste adipisci omnis vel consectetur sequi impedit natus.
+            </p>
+            <button class="btn1">LEARN MORE</button>
+          </div>
+        </header>
+      </div>
+    </section>
+    <!--Navigation media query-->
+    <section class="miniNavModal">
+      <div class="closeNav">
+        <a href="#"> <i class="far fa-times-circle"></i></a>
+      </div>
+      <div class="navModalSyntax">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Expertise</a></li>
+          <li><a href="#">Teams</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">People Say</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </section>
+    <!--Story-->
+    <section class="story">
+      <div class="inside__story">
+        <div class="story__left">
+          <img src="assets/logo-big.png" alt="The logo but as an icon" />
+        </div>
+        <div class="story__right">
+          <h2>Our Story</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi velit
+            asperiores tempora deserunt, odit atque tenetur! Dolores, iusto
+            accusamus? Velit atque incidunt assumenda corporis nisi numquam
+            error facere porro quis laudantium, repellat expedita.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi velit
+            asperiores tempora deserunt, odit atque tenetur! Dolores, iusto
+            accusamus? Velit atque incidunt assumenda corporis nisi numquam
+            error facere porro quis laudantium, repellat expedita.
+          </p>
+          <button class="btn1">LEARN MORE</button>
+        </div>
+      </div>
+    </section>
+    <!--video section-->
+    <section class="video">
+      <div class="icon_video">
+        <a id="videoPlayBtn" href="#">
+          <img src="assets/play.png" alt="The play icon" />
+        </a>
+      </div>
+    </section>
+    <section class="modal">
+      <div class="inside_modal">
+        <i id="cancelVideo" class="far fa-times-circle"></i>
+      </div>
+      <iframe
+        src="https://www.youtube.com/embed/7S7smPw9EiE"
+        title="YouTube video player"
+        frameborder="0"
+        autplay
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <!--Expertise-->
+    <section class="expertise">
+      <div class="upper__expertise">
+        <h1>Expertise</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero,
+          maiores.
+        </p>
+        <small>_______</small>
+      </div>
+      <div class="lower__expertise">
+        <div class="container">
+          <!--Upper part of the icons-->
+          <div class="inside__expertise">
+            <div style="border-left: none">
+              <img src="assets/screen.svg" alt="Screen svg" />
+              <h1>WEB DEVELOPMENT & DESIGN</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
+                reiciendis ipsum praesentium eius!
+              </p>
+            </div>
+            <div>
+              <img src="assets/pen.svg" alt="Pen" />
+              <h1>BRANDING IDENTITY</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
+                reiciendis ipsum praesentium eius!
+              </p>
+            </div>
+            <div>
+              <img id="imageEx" src="assets/mobile.png" alt="Mobile svg" />
+              <h1>MOBILE APP</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
+                reiciendis ipsum praesentium eius!
+              </p>
+            </div>
+          </div>
+          <!--Lower part of the icons-->
+          <div
+            style="border-top: 1px solid #eee"
+            class="inside__expertise lower_icon"
+          >
+            <div style="border-left: none">
+              <img src="assets/graph.svg" alt="Graph svg" />
+              <h1>SEARCHING ENGINE OPTIMIZATION</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
+                reiciendis ipsum praesentium eius!
+              </p>
+            </div>
+            <div>
+              <img src="assets/gameboy.svg" alt="Gameboy svg" />
+              <h1>GAME DEVELOPMENT</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
+                reiciendis ipsum praesentium eius!
+              </p>
+            </div>
+            <div>
+              <img src="assets/heart.svg" alt="Heart svg" />
+              <h1>MADE WITH LOVE</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
+                reiciendis ipsum praesentium eius!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Team-->
+    <section class="team">
+      <div class="team__inside">
+        <div class="team__header">
+          <h1>MEET OUR AMAZING TEAM</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <small>_____</small>
+        </div>
+        <div class="team__pic">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+              alt="Person 1"
+            />
+            <div class="spaceTeam">
+              <h1>Laura martin</h1>
+              <p>Graphic Designer</p>
+            </div>
+          </div>
+          <div></div>
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1542103749-8ef59b94f47e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+              alt="Person 1"
+            />
+            <div class="spaceTeam">
+              <h1>marta baxter</h1>
+              <p>Graphic Designer</p>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1655&q=80"
+              alt="Person 1"
+            />
+            <div class="spaceTeam">
+              <h1>Jenny dann</h1>
+              <p>Full Stack Developer</p>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+              alt="Person 1"
+            />
+            <div class="spaceTeam">
+              <h1>jim jackson</h1>
+              <p>Full Stack Developer</p>
+            </div>
+          </div>
+        </div>
+        <div class="team__btn">
+          <p>Become part of our team, apply now !</p>
+          <button class="btn1">Join now</button>
+        </div>
+      </div>
+    </section>
+    <!--Form-->
+    <section class="formField">
+      <div class="inside__formField">
+        <!--Form right-->
+        <div class="form__right">
+          <h1>GIVE US A GOOD NEWS</h1>
+          <div class="form">
+            <form action="">
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Email" />
+              <input type="text" placeholder="Subject" />
+              <textarea
+                placeholder="Message"
+                name=""
+                id=""
+                cols="60"
+                rows="10"
+              ></textarea>
+              <div>
+                <button class="btn1">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!--Form Left-->
+        <div class="form__left">
+          <h1>OUR HAPPY CLIENTS</h1>
+          <div class="flex__clients">
+            <div>
+              <img src="assets/Logo_of_Mango_(new).png" alt="The Mongo Logo" />
+              <img src="assets/1280px-Gucci_Logo.png" alt="The Gucci Logo" />
+              <img src="assets//1280px-Logo_NIKE.png" alt="The zara Logo" />
+              <img src="assets/Puma_Logo.png" alt="The Puma Logo" />
+              <img src="assets/Billabong.png" alt="" />
+            </div>
+            <div>
+              <img src="assets/Logo_of_Mango_(new).png" alt="The Mongo Logo" />
+              <img src="assets/1280px-Gucci_Logo.png" alt="The Gucci Logo" />
+              <img src="assets//1280px-Logo_NIKE.png" alt="The zara Logo" />
+              <img src="assets/Puma_Logo.png" alt="The Puma Logo" />
+              <img src="assets/Billabong.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Footer -->
+    <footer class="footer">
+      <div class="inside__footer">
+        <!--Left part footer-->
+        <div class="footer__left">
+          <div class="LogoFooter">
+            <div>
+              <img src="assets/logo.svg" alt="" />
+            </div>
+            <div>
+              <p>Tajam</p>
+            </div>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde odit
+              veniam maiores quam culpa recusandae neque nulla velit ipsam earum
+            </p>
+          </div>
+          <div>
+            <ul>
+              <li><a href="#">HELP</a></li>
+              <li><a href="#">TERMS & CONDITION</a></li>
+              <li><a href="#">PRIVACY</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--Middle part footer-->
+        <div class="footer__middle">
+          <div>
+            <h1>OUR STUDIO</h1>
+          </div>
+          <div class="middle__icons">
+            <div><i class="fas fa-map-marker-alt"></i></div>
+            <div><p>lorem 122 - lorem 322 - 12033 - lorem</p></div>
+          </div>
+          <div class="middle__icons">
+            <div><i class="fas fa-phone-alt"></i></div>
+            <div><p>01122134231</p></div>
+          </div>
+        </div>
+        <!--Right part footer-->
+        <div class="footer__right">
+          <div>
+            <h1>STAY IN TOUCH</h1>
+          </div>
+          <div class="finalLine">
+            <input type="text" placeholder="Subscribe Our Newspaper" />
+            <i id="telegram" class="fab fa-telegram-plane"></i>
+          </div>
+          <div>
+            <i id="facebook" class="fab fa-facebook-f"></i>
+            <i id="twitter" class="fab fa-twitter"></i>
+            <i id="instagram" class="fab fa-instagram"></i>
+            <i id="telgrm" class="fab fa-telegram-plane"></i>
+            <i id="gogle" class="fab fa-google"></i>
+          </div>
+          <div>
+            <p>Copyright © Tajam 2021</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Script -->
+    <script src="app.js"></script>
+  </body>
+</html>
