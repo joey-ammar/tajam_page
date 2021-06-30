@@ -1,14 +1,20 @@
-# tajam_page
+# Tajam Project
 
+      ***Description:***
 
+A static webpage for presenting a Creating agency.
 
+**Website:**
 
-Project Title : Project Tajam
+[https://tajam-project.netlify.app/](https://tajam-project.netlify.app/)
 
-Technologies used : 1 - HTML 2 - CSS 3 - JAVASCRIPT
+***GitHub:***
 
-Project live: https://tajam-project.netlify.app/
+[https://github.com/joey-ammar/tajam_page](https://github.com/joey-ammar/tajam_page)
 
-Description: Landing page made with Html css and javascript
+***Stack:***
 
-More in depth: - Design
+JavaScript -  HTML - CSS
+
+![TAJAM](https://user-images.githubusercontent.com/66380080/123961833-12a25780-d9b1-11eb-8099-0baa488e1107.png)
+
